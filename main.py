@@ -1,7 +1,14 @@
 #import paho para usar MQTT 
 #import mongoengine para guardar en DB
-#import pandas para mapas de calor sobre imagen ?? valdría para análisis, 
-# pero la representación debe de ser en tº real
+
+
+#import pandas para mapas de calor sobre imagen ?? valdría para análisis,
+# pero la representación debe de ser en tº real en javacript web + phas3r
+
+
+#estudiar la viabilidad de usar docker-compose.yml para ejecutar el entorno web y el script de python
+
+# El stack sería Python=Backend, JS=Frontend. Sin embargo, quizás sea interesante realizar las lógicas de activación en JS y con WebSockets
 
 
 
