@@ -1,4 +1,10 @@
-a = 0
+#import paho para usar MQTT 
+#import mongoengine para guardar en DB
+#import pandas para mapas de calor sobre imagen ?? valdría para análisis, 
+# pero la representación debe de ser en tº real
+
+
+
 b = None
 s3 = "{'10:00:00:00:00:01' : ['RSSI' : -56] }"
 mac_address = s3[2:19]
@@ -17,8 +23,8 @@ if mac_address == "10:00:00:00:00:01" :
         print(b)
 else:
     print('MAL \n')
-#print(a)
-#print(b)
+
+
 s3.find("RSSI")
 if s3.count("RSSI") <= 3:
     print("ON")
