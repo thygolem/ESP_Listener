@@ -28,7 +28,8 @@ if devicesCount >= aforo:
             print(" device 2")
             print(" device 3")
             print("\U0001F480 BEGIN PHASER ERA \U0001F480")
-
+            # Estos dispositivos van a tener un estado sensible al entorno físico, 
+            # vamos a escribir con el ESP32 en la base de datos para que python sepa el estado del entorno
 
 
 
