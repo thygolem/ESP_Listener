@@ -13,26 +13,25 @@ mac_address = s3[2:19]
 rssiStr = s3[33:36]
 rssi = int(rssiStr)
 distance = rssi * -0.05
+devicesCount = (s3.count("RSSI"))
 
 print(mac_address," has", rssi, "dBs, it's","{0:.1f}".format(distance), "meters from BLE antenna")
 
-
-s3.find("RSSI")
-if s3.count("RSSI") <= 3:
+if devicesCount >= 0:
     print("ON")
+    if mac_address == "10:00:00:00:00:01" :
+        print('UNO está presente')
+        if rssi >= -55:
+            b = True
+            print(b)
+    else:
+        print('NO HAY NÁ')
     #MQTT PUBLISH
 else:
     print("OFF")
-# se debería activar la secuencia de lógicas de presencia en función de la existencia de un "RSSI" en elmensaje principal
-# if rssiCount >= 1 then.....
+
 # Para automatizar en f(macType) (macType=x), habrá que hacer un JSON aparte donde especifique el tipo de activo 
-if mac_address == "10:00:00:00:00:01" :
-    print('UNO está presente')
-    if int(rssi) >= -55:
-        b = True
-        print(b)
-else:
-    print('NO HAY NÁ')
+
 
 
 
