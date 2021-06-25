@@ -1,0 +1,26 @@
+Se debería crear una interfaz con Nuxt.js que nos diera la capacidad de generar tareas
+ y mostrarlas en un mapa (MapboxGL or C#.ENV or JS+Phaser)
+
+Para crear una tarea nueva, se deben usar colecciones JSON en mongodb
+
+Crear una plantilla en pythonGUI||C#/Flutter que escriba en mongodb!
+
+Hay varias opciones dependiendo del cliente:
+    - Flutter ==> Entorno + industralizado donde se debe general tareas desde cualquier lugar
+    - PythonGUI/C# ==> Entornos creativos donde las teareas se van a realizar de manera pausada y elaborada con mayor grado de automatización
+
+FLUTTER
+pros: nuevos elementos, gran futuro ¿Fuchsia?
+
+PYTHONGUI or C#
+pros: Gran creatividad e interacción, enfocado a la combinación con entornos 2D/3D (mapas, interfaces, personalización....)
+
+
+
+Los sistemas de computación en Edge, C++(ESP32) son muy valiosos en los dos entornos
+
++ Industrial = Seguridad
++ Creativo = Potencial de evolución de HW
+
+
+Se propone realizar un Stack básico para entornos industriales y avanzar + en los entornos creativos
