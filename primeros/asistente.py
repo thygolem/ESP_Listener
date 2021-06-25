@@ -20,7 +20,7 @@ presence = True if devicesCount >=1 else False
 worker_type = 'Mecánico' if mac_address == '10:00:00:00:00:01'else 'Other'
 print(worker_type)
 
-# ESTO DEBERÍA SER UN ARCHIVO CSV O DB EN LA NUBE (ACCESIBLE REMOTAMENTE)
+# DEEP SLEEP MODE CONTROLLER ?
 tarea = True
 print("MQTT publish OFF") if tarea==False else print("MQTT PUBLISH ON")
 
