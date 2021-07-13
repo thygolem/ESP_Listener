@@ -19,10 +19,10 @@ db = client['ESP32DB']
 collection = db['BLEDATA']
 
 # MQTT config info
-CLOUDMQTT_HOST = 'suigeneris.ml'
+CLOUDMQTT_HOST = ''
 CLOUDMQTT_PORT = 1883
-CLOUDMQTT_USER = 'indoor_client'
-CLOUDMQTT_PASS = 'Realtime_1'
+CLOUDMQTT_USER = ''
+CLOUDMQTT_PASS = ''
 
 
 def main():
